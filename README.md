@@ -2,15 +2,16 @@
 # CSS Flexbox Parte 1
 
 ## - O que vamos aprender?
+
 Você irá aprender a propriedade Flexbox do CSS.
 
 Uma das preocupações que acompanham o dia a dia de qualquer pessoa desenvolvedora, é a famosa **Responsividade**.
 
 Somando a isso, há também todas as complexidades de ajustar aquela pequena área do site que você está criando, utilizando propriedades como: 
-* float, 
-* position, 
+* float
+* position 
 * display inline 
-* display block. 
+* display block 
 
 E depois disso ~torcendo~ calculando para que ao diminuir a janela do navegador, o site continue com os elementos organizados na tela.
 
@@ -36,7 +37,7 @@ E é através do Flebox que conseguiremos esse resultado de maneira mais fácil.
 
 ---
 
-# Conteúdo
+# Conteúdos
 
 ## Introdução
 
@@ -56,22 +57,25 @@ Nesse momento você aprenderá como utilizar o Flexbox aos elementos que estão 
 
 O primeiro passo para tornar o seu elemento em um Flex Container, podendo a partir de então trabalhar com suas propriedades flex, é o:
 
-
 ```
 #id-elemento {
   display: flex;
 }
 ```
 
-A partir de agora, você poderá utilizar algumas propriedades que só funcionam em Flex Containers, e são eles: flex-direction, flex-wrap e flex-flow: 
+A partir de agora, você poderá utilizar algumas propriedades que só funcionam em Flex Containers, e são: `flex-direction`, `flex-wrap` e `flex-flow:` 
 
-Mas para entender como utiliza-los, você precisará compreender como são posicionados os elementos(Flex Items) dentro de um Flex Container.
+Mas para entender como as utilizar, você precisará compreender como são posicionados elementos(Flex Items) dentro de um Flex Container.
 
-O posicionamento dessess itens é definido de acordo com a direção do eixo principal e do eixo cruzado.
+O posicionamento desses itens é definido de acordo com a direção do eixo principal (main axis) e do eixo cruzado (cross axis).
 
-O eixo principal (Main Axis), é definido por padrão como sendo o eixo horizontal, equanto o eixo cruzado (Cross Axis) como sendo o eixo vertical.
+Por padro, o eixo principal, é definido como sendo o eixo horizontal, equanto o eixo cruzado como sendo o eixo vertical.
 
-Agora que você já entendeu como funciona o Main Axis e o Cross Axis, vamos dar uma olhada em algumas propriedades dos Flex Containers. 
+Nessa imagem você pode entender um pouco melhor essa abstração:
+
+
+
+, vamos dar uma olhada em algumas propriedades dos Flex Containers. 
 
 ## Flex direction, flex wrap e flex flow
 
