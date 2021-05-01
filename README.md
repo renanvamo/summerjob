@@ -2,7 +2,6 @@
 # CSS Flexbox Parte 1
 
 ## - O que vamos aprender?
-
 Você irá aprender a propriedade Flexbox do CSS.
 
 Uma das preocupações que acompanham o dia a dia de qualquer pessoa desenvolvedora, é a famosa **Responsividade**.
