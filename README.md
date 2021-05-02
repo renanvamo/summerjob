@@ -65,7 +65,7 @@ Por padrão, o eixo principal é definido como sendo horizontal, enquanto o eixo
 
 Nessa imagem você pode entender um pouco melhor essa abstração:
 
-![FlexboxAxis](https://www.imagemhost.com.br/image/2rG2li)
+![flexbox.jpg](https://www.imagemhost.com.br/images/2021/05/02/flexbox.jpg)
 
 Vale lembrar, que este é o comportamento padrão, porém podemos alterar a orientação de um eixo principal, e você verá como isso é feito logo a seguir.
 
