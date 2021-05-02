@@ -142,14 +142,13 @@ flex-direction: row; // Main Axis na horizontal - itens ficam um ao lado do outr
 flex-direction: column; // Main Axis na vertical - itens abaixo um do outro.
 ```
 
-Outra propriedade que também pode interferir no posicionamento dos itens é a flex-wrap.
+Outra propriedade que interfere no posicionamento dos itens é a flex-wrap.
 
-Através dessa propriedade, podemos definir o que estes elementos dentro de um flex container, farão ao atingir o limite de seu container, se você quiser que os elementos ajustem seu tamanho para que todos os elementos caibam em uma só linha, use `flex-wrap: nowrap`, mas se você preferir que os elementos não modifiquem seu tamanho, basta adicionar a propriedade `flex-wrap: wrap`. Por padrão, essa propriedade está configurada como *nowrap*. 
+Através dessa propriedade, você pode definir o que estes elementos dentro de um flex container, farão ao atingir o limite de seu container. Se você quiser que os elementos ajustem seu tamanho para que todos eles caibam em uma só linha, use `flex-wrap: nowrap`, mas se você preferir que estes elementos não modifiquem seu tamanho original e ao atingir a borda do container, pulem para outra linha, basta adicionar a propriedade `flex-wrap: wrap`. Por padrão, essa propriedade está configurada como *nowrap*. 
 
 Para melhor visualização, vamos para o vscode novamente:
 
 Copie o código:
-
 ``` 
 <!DOCTYPE html>
 <html lang="pt-br">
@@ -205,7 +204,7 @@ Experimente substituir nos códigos anteriores as pripriedades flex-direction e 
 
 ## Justify content, align items e align content
 
-E agora que você aprendeu a manipular o **main axis** de um **flex container**, está na hora de aprender a alinhar itens dentro deste container.
+E agora que você aprendeu a manipular um **main axis** de um **flex container**, está na hora de aprender a alinhar itens dentro deste container.
 
 Para isso você verá 3 propriedades:
 
@@ -213,9 +212,9 @@ Para isso você verá 3 propriedades:
 * align-itens:
 * align-content:
 
-Essas propriedades utilizam valores semelhantes, portanto veremos como se comportam separadamente.
-
 A primeira propriedade é justify-content, ela é utilizada para alinhar itens do **eixo principal**.
+
+[justify-content.jpg](https://postimg.cc/QFWwzh6n)
 
 Já align-items é utilizada para alinhar os itens do **eixo cruzado**.
 
