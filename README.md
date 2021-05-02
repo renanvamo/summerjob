@@ -212,13 +212,17 @@ Para isso você verá 3 propriedades:
 * align-itens:
 * align-content:
 
-A primeira propriedade é justify-content, ela é utilizada para alinhar itens do **eixo principal**.
+A primeira propriedade é justify-content, ela é utilizada para alinhar itens do **eixo principal** veja abaixo alguns de seus possíveis valores e comportamentos.
 
 [![justify-content.jpg](https://i.postimg.cc/NjNt50RY/justify-content.jpg)](https://postimg.cc/QFWwzh6n)
 
 Já align-items é utilizada para alinhar os itens do **eixo cruzado**.
 
+[![align-itens.jpg](https://i.postimg.cc/KYTRLVF0/align-itens.jpg)](https://postimg.cc/xk0fV6Xm)
+
 Enquanto align-content você só irá utilizar quando possuímr mais de uma linha em seu **eixo principal**.
+
+[![align-content.jpg](https://i.postimg.cc/HnHk1sqM/align-content.jpg)](https://postimg.cc/gXSWvdkc)
 
 ```
 justify-content: flex-start; // padrão
@@ -226,22 +230,9 @@ align-items: stretch; // padrão
 align-content: stretch; // padrão
 ```
 
-E quanto aos valores, as propriedades podem utilizar:
-
-center - itens sao posicionados ao centro.
-stretch - itens se esticam até preencher o container.
-baseline - itens se iniciam de acordo com uma base única.
-flex-start - itens iniciam alinhamento ao início do flex container.
-flex-end - itens iniciam o alinhamento partindo do final deste flex container.
-space-around - uma pequena margem ao inicio e ao final do container, e margens maiores entre os itens.
-space-between - primeiro e último itens alinhados a borda deste flex container, enquanto possui margens iguais no meio.
-space-evenly - margens iguais entre todos itens deste container.
-
 Lembrando que todas estas propriedades, se ajustam de acordo com a posição do eixo principal e cruzado.
 
-Fique atento - Se um flex item possuir um tamanho específico de width e height, algumas propriedades como stretch podem não surtir efeito algum.
-
-Para que você possa ver claramente, copie o código abaixo e vamos mais uma vez ver o funcionamento na prática:
+Agora, para exercitar o seu aprendizado, copie o código abaixo e vamos mais uma vez ver o funcionamento na prática:
 
 ```
 <!DOCTYPE html>
@@ -286,7 +277,9 @@ Para que você possa ver claramente, copie o código abaixo e vamos mais uma vez
 </html>
 ```
 
-Esse novo aprendizado abre muitos horizontes para seus novos projetos e até mesmo para os antigos, agora é só você praticar.
+Esse novo aprendizado abre muitos horizontes para seus novos projetos e até mesmo para os antigos, experimente reorganizar os elementos do seu último projeto utilizando as facilidades que você aprendeu com CSS Flexbox.
+
+Agora vamos praticar!
 
 - Exercícios
 
