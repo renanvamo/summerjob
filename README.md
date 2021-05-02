@@ -17,15 +17,11 @@ E depois disso ~torcendo~ calculando para que ao diminuir a janela do navegador,
 
 Felizmente, hoje você iniciará seus estudos na propriedade que irá facilitar esse trabalho, o CSS Flexbox.
 
----
-
 ## Você será capaz de:
 
 * Posicionar os elementos do seu site utilizando a propriedade flexbox.
 
 * Tornar seu site responsivo.
-
----
 
 ## Porque isso é importante?
 
@@ -34,8 +30,6 @@ O acesso aos sites que você criará na sua carreira como pessoa desenvolvedora,
 Por isso, o cuidado para tornar os sites que você criará a partir desse momento, em sites mais dinâmicos e flexíveis, serão constantes. 
 
 E é através do Flebox que conseguiremos esse resultado de maneira mais fácil.
-
----
 
 # Conteúdos
 
@@ -50,8 +44,6 @@ Você aprenderá como aplicar a propriedade Flexbox aos containers, tornando-os 
 ### Parte 2
 
 Nesse momento você aprenderá como utilizar o Flexbox aos elementos que estão dentro de um Flex Container, também conhecidos como Flex Items, e veremos esse assunto na próxima aula.
-
----
 
 ## Introdução
 
@@ -210,8 +202,6 @@ flex-flow: row nowrap; //(padrão) - podemos usar as combinações como aprendem
 ```
 
 Experimente substituir nos códigos anteriores as pripriedades flex-direction e flex-wrap por flex-flow, e faça a mágica acontecer.
-
----
 
 ## Justify content, align items e align content
 
