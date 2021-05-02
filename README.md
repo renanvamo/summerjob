@@ -214,7 +214,7 @@ Para isso você verá 3 propriedades:
 
 A primeira propriedade é justify-content, ela é utilizada para alinhar itens do **eixo principal**.
 
-[justify-content.jpg](https://postimg.cc/QFWwzh6n)
+![justify-content.jpg](https://postimg.cc/QFWwzh6n)
 
 Já align-items é utilizada para alinhar os itens do **eixo cruzado**.
 
