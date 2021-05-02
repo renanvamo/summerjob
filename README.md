@@ -55,17 +55,17 @@ O primeiro passo para tornar o seu elemento em um Flex Container, podendo a part
 }
 ```
 
-A partir de agora, você poderá utilizar algumas propriedades que só funcionam em Flex Containers, e são: `flex-direction`, `flex-wrap` e `flex-flow:` 
+A partir de agora, você poderá utilizar algumas propriedades exclusivas de um flex container, e veremos 3 destas a seguir: `flex-direction`, `flex-wrap` e `flex-flow:` 
 
-Mas para entender como as utilizar, você precisará compreender como são posicionados elementos(Flex Items) dentro de um Flex Container.
+Mas para entender como serão utilizadas, você precisará compreender como são posicionados elementos(Flex Items) dentro de um Flex Container.
 
 O posicionamento desses itens é definido de acordo com a direção do eixo principal (main axis) e do eixo cruzado (cross axis).
 
-Por padro, o eixo principal, é definido como sendo o eixo horizontal, equanto o eixo cruzado como sendo o eixo vertical.
+Por padrão, o eixo principal é definido como sendo o eixo horizontal, equanto o eixo cruzado como sendo o eixo vertical.
 
 Nessa imagem você pode entender um pouco melhor essa abstração:
 
-
+![FlexboxAxis](~/home/renan/Desktop/trybe/summerjob)
 
 , vamos dar uma olhada em algumas propriedades dos Flex Containers. 
 
