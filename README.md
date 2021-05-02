@@ -61,19 +61,19 @@ Mas para entender como serão utilizadas, você precisará compreender como são
 
 O posicionamento desses itens é definido de acordo com a direção do eixo principal (main axis) e do eixo cruzado (cross axis).
 
-Por padrão, o eixo principal é definido como sendo o eixo horizontal, equanto o eixo cruzado como sendo o eixo vertical.
+Por padrão, o eixo principal é definido como sendo horizontal, enquanto o eixo cruzado como sendo vertical.
 
 Nessa imagem você pode entender um pouco melhor essa abstração:
 
 ![FlexboxAxis](https://s3.us-east-2.amazonaws.com/assets.app.betrybe.com/fundamentals/css-flexbox/css-flexbox-part-1/images/css_flexbox_axes-ae037e975930d45a18d1ef4417501d82.png)
 
-, vamos dar uma olhada em algumas propriedades dos Flex Containers. 
+Vale lembrar, que este é o comportamento padrão, porém podemos alterar a orientação de um eixo principal, e você verá como isso é feito logo a seguir.
 
 ## Flex direction, flex wrap e flex flow
 
-A propriedade que define o direcionamento dos Eixos Principal e Cruzado, é o flex-direction.
+A propriedade que define o direcionamento de um eixo principal, é o `flex-direction`.
 
-Mas nada como a boa e velha prática para que você possa entender melhor como isso funciona e conhecer os principais valores de flex-directions.
+Mas nada como a boa e velha prática para que você possa entender melhor como isso funciona e conhecer os principais valores de flex directions.
 
 copie o código.
 ``` 
@@ -144,7 +144,7 @@ flex-direction: column; // Main Axis na vertical - itens abaixo um do outro.
 
 Outra propriedade que também pode interferir no posicionamento dos itens é a flex-wrap.
 
-Através dessa propriedade podemos definir se os elementos dentro de um flex container, ao atingirem o limite, serão movidos para a linha de baixo ou, se ajustarão seu tamanho para caber dentro do flex container. Por padrão a propriedade é flex-wrap: nowrap; ou seja, não haverá a quebra de linha. 
+Através dessa propriedade, podemos definir o que estes elementos dentro de um flex container, farão ao atingir o limite de seu container, se você quiser que os elementos ajustem seu tamanho para que todos os elementos caibam em uma só linha, use `flex-wrap: nowrap`, mas se você preferir que os elementos não modifiquem seu tamanho, basta adicionar a propriedade `flex-wrap: wrap`. Por padrão, essa propriedade está configurada como *nowrap*. 
 
 Para melhor visualização, vamos para o vscode novamente:
 
@@ -193,7 +193,7 @@ Copie o código:
 </html>
 ```
 
-E também temos a propriedade flex-flow.
+Por último, temos a propriedade flex-flow.
 
 Esta propriedade nada mais é do que a junção das propriedades flex-direction e flex-wrap em uma só.
 
@@ -205,21 +205,21 @@ Experimente substituir nos códigos anteriores as pripriedades flex-direction e 
 
 ## Justify content, align items e align content
 
-Depois que você aprendeu a manipular o Main Axis de um Flex Container, está na hora de aprender a alinhar itens dentro deste Flex Container.
+E agora que você aprendeu a manipular o **main axis** de um **flex container**, está na hora de aprender a alinhar itens dentro deste container.
 
 Para isso você verá 3 propriedades:
 
-justify-content:
-align-itens:
-align-content:
+* justify-content:
+* align-itens:
+* align-content:
 
 Essas propriedades utilizam valores semelhantes, portanto veremos como se comportam separadamente.
 
-A primeira propriedade é justify-content, ela é utilizada para alinhar itens do eixo principal.
+A primeira propriedade é justify-content, ela é utilizada para alinhar itens do **eixo principal**.
 
-Já align-items é utilizada para alignhar os itens do eixo cruzado.
+Já align-items é utilizada para alinhar os itens do **eixo cruzado**.
 
-Enquanto align-content só é útil quando possuímos uma quebra de linha no eixo principal.
+Enquanto align-content você só irá utilizar quando possuímr mais de uma linha em seu **eixo principal**.
 
 ```
 justify-content: flex-start; // padrão
@@ -227,7 +227,7 @@ align-items: stretch; // padrão
 align-content: stretch; // padrão
 ```
 
-E a respeito de valores, as propriedades podem utilizar as seguintes:
+E quanto aos valores, as propriedades podem utilizar:
 
 center - itens sao posicionados ao centro.
 stretch - itens se esticam até preencher o container.
