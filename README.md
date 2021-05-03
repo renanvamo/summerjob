@@ -345,7 +345,7 @@ Então você precisa configurar o remote utilizando a opção --set-upstream (ou
 7. Quando terminar os exercícios, seus códigos devem estar todos commitados na branch exercises/css-flexbox-parte1, e disponíveis no repositório remoto do GitHub.
 Pra finalizar, crie um Pull Request , adicione uma descrição bem bacana, e envie para a monitoria e/ou colegas revisarem! 🤜🏼🤛🏼
 
-### Exercício 1
+### TrybeBook
 
 Hoje você irá montar o cabeçalho de uma rede social chamada Trybebook. Segue abaixo uma imagem exemplo de como deve ficar ao final dos exercícios.
 
@@ -353,23 +353,6 @@ Hoje você irá montar o cabeçalho de uma rede social chamada Trybebook. Segue 
 Vamos começar montando o cabeçalho da nova rede social TrybeBook, e para isso, copie o código abaixo:
 
 Para começar a desenvolver, copie o código abaixo
-
-```
-
-```
-
-Analisando o código acima, você perceberá que o elemento `header` possui 3 elementos filhos, organize-os de maneira a ficarem em uma só linha horizontal, e que tenha os espaçamentos como mostra a imagem de exemplo.
-
-### Exercício 2
-
-Agora, faça com que o elemento de classe `title-content` se alinhem como na imagem. (Lembre-se do alinhamento horizontal e vertical)
-
-### Exercício 3
-
-
-
-## Gabarito de Exercícios
-
 
 ```
 <!DOCTYPE html>
@@ -388,12 +371,167 @@ Agora, faça com que o elemento de classe `title-content` se alinhem como na ima
       width: 100%;
       background-color: rgb(4, 153, 153);
       padding: 10px 0;
+    }
+
+    .title-content {
+      
+    }
+
+    #search-input {
+      padding: 6px;
+      border-radius: 5px;
+    }
+
+    .search-panel {
+      display: flex;
+      
+    }
+    
+    .nav-main {
+  
+    }
+
+    .nav-main div {
+      display: flex;
+      font-size: 13px;
+      margin: 0 10px;
+      width: 100px;
+      height: 100px;
+      border: 1px solid black;
+      border-radius: 10px;
+      background-color: rgb(153, 116, 151);
+    }
+
+    .icons {
+      
+    }
+
+    .nav-profile {
+      width: 300px;
+    }
+  
+    .personal{
+     
+    }
+
+    .nav-user {
+      
+    }
+
+
+  </style>
+</head>
+<body>
+
+  <header class="header">
+    <section class="title-content">
+      <div id="title">
+        <h1>TRYBEBOOK</h1>
+      </div>
+      <div class="search-panel">
+        <img id="logo" src="https://img.icons8.com/ios-filled/50/26e07f/y-combinator.png"/>
+        <input id="search-input" placeholder="Pesquise aqui!">
+      </div>
+    </section>
+
+    <section class="nav-main">
+      <div class="icons">
+        <p>Página Inicial</p>
+        <img src="https://img.icons8.com/pastel-glyph/50/000000/browser-homepage--v2.png"/>
+      </div>
+      <div class="icons">
+        <p>Vídeos</p>
+        <img src="https://img.icons8.com/dotty/50/000000/movies-folder--v1.png"/>
+      </div>
+      <div class="icons">
+        <p>Grupos</p>
+        <img src="https://img.icons8.com/pastel-glyph/50/000000/groups--v4.png"/>
+      </div>
+      <div class="icons">
+        <p>Jogos</p>
+        <img src="https://img.icons8.com/ios/50/000000/footman.png"/>
+      </div>
+    </section>
+
+    <section class="nav-profile">
+      <section class="personal">
+        <img id="user-image" src="https://img.icons8.com/material-sharp/59/26e07f/user-male-circle.png"/>
+        <div>Nome do usuário</div>
+      </section>
+      <section class="nav-user">
+        <img id="user-menu" src="https://img.icons8.com/fluent-systems-filled/40/000000/top-menu.png"/>
+        <img id="user-notifications" src="https://img.icons8.com/material-rounded/40/000000/bell--v1.png"/>
+        <img id="user-settings" src="https://img.icons8.com/windows/40/000000/user-settings.png"/>
+      </section>
+    </section>
+  </header>
+  <section>
+    <p>Todos os ícones foram retirados do site <a href="https://icons8.com.br/" target="_blank">icons8</a></p>
+    <p>Um excelente site com milhares de ícones gratuitos que você pode usar no desenvolvimento dos seus projetos</p>
+  </section>
+</body>
+</html>
+```
+
+#### Exercício 1
+
+Analisando o código acima, você perceberá que o elemento `header` possui 3 elementos filhos, organize-os de maneira a ficarem em uma só linha horizontal, e que tenha os espaçamentos como mostra a imagem de exemplo.
+
+#### Exercício 2
+
+Agora, faça com que o elemento de classe `title-content` se alinhem como na imagem. (Lembre-se do alinhamento horizontal e vertical)
+
+#### Exercício 3
+
+No elemento de classe `search-panel` faça o alinhamento dos itens que existem dentro dele.
+
+#### Exercício 4
+
+Nos ícones de centro, determine a direção correta destes itens, posicionando-os como na imagem de exemplo.
+
+#### Exercício 5
+
+Dentro da tag de classe `nav-profile` os itens estão organizados de maneira a não ocuparem todo o espaço do container de maneira correta, organize esses elementos internos para que eles fiquem como na imagem.
+
+#### Exercício 6
+
+Já na classe `personal`, temos itens que não seguem o alinhamento da imagem de exemplo, busque organiza-los de maneira que se pareça com a imagem que você viu acima.
+
+#### Exercício 7
+
+E em `nav-user`, precisamos organizar todos os ícones como mostra a imagem. 
+
+
+## Gabarito de Exercícios
+
+Segue a solução para os exercícios propostos:
+As repostas para cada questão, estão comentadas no código abaixo.
+
+```
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Exercícios Flexbox</title>
+  <style>
+    body {
+      margin: 0 auto;
+    }
+
+    header { 
+      width: 100%;
+      background-color: rgb(4, 153, 153);
+      padding: 10px 0;
+      /* Exercício 1 */
       display: flex;
       justify-content: space-around;
       align-items: flex-end;
     }
 
     .title-content {
+      /* Exercício 2 */
       display: flex;
       flex-direction: column;
       align-items: center;
@@ -405,6 +543,7 @@ Agora, faça com que o elemento de classe `title-content` se alinhem como na ima
     }
 
     .search-panel {
+    /* Exercício 3 */
       display: flex;
       justify-content: center;
       align-items: center;
@@ -426,12 +565,14 @@ Agora, faça com que o elemento de classe `title-content` se alinhem como na ima
     }
 
     .icons {
+      /* Exercício 4 */
       flex-direction: column;
       align-items: center;
       justify-content: center;
     }
 
     .nav-profile {
+      /* Exercício 5 */
       display: flex;
       align-items: flex-end;
       width: 300px;
@@ -439,15 +580,16 @@ Agora, faça com que o elemento de classe `title-content` se alinhem como na ima
     }
   
     .personal{
+      /* Exercício 6 */
       display: flex;
       align-items: center;
     }
 
     .nav-user {
+      /* Exercício 7 */
       display: flex;
       flex-direction: column-reverse;
     }
-
 
   </style>
 </head>
