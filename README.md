@@ -290,11 +290,11 @@ Agora vamos praticar!
 
 E aí, gostou do novo aprendizado? Que tal praticar um pouco mais e se aprofundar nisso. Seguem algumas referências para aprender e até se divertir aprendendo:
 
-[Froggy](http://flexboxfroggy.com/#pt-br)
-[Grid Garden](https://cssgridgarden.com/)
-[Flexbox Defense](http://www.flexboxdefense.com/)
-[Flexbox Zombies](https://mastery.games/flexboxzombies/)
-[TreinaWeb](https://www.treinaweb.com.br/blog/css-flexbox-um-guia-interativo-parte-1-containers/)
+* [Froggy](http://flexboxfroggy.com/#pt-br)
+* [Grid Garden](https://cssgridgarden.com/)
+* [Flexbox Defense](http://www.flexboxdefense.com/)
+* [Flexbox Zombies](https://mastery.games/flexboxzombies/)
+* [TreinaWeb](https://www.treinaweb.com.br/blog/css-flexbox-um-guia-interativo-parte-1-containers/)
 
 
 
