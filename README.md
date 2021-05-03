@@ -212,15 +212,15 @@ Para isso você verá 3 propriedades:
 * align-itens:
 * align-content:
 
-A primeira propriedade é justify-content, ela é utilizada para alinhar itens do **eixo principal** veja abaixo alguns de seus possíveis valores e comportamentos.
+A primeira propriedade é `justify-content`, ela é utilizada para alinhar itens do **eixo principal** veja abaixo alguns de seus possíveis valores e comportamentos.
 
 [![justify-content.jpg](https://i.postimg.cc/NjNt50RY/justify-content.jpg)](https://postimg.cc/QFWwzh6n)
 
-Já align-items é utilizada para alinhar os itens do **eixo cruzado**.
+Já `align-items` é utilizada para alinhar os itens do **eixo cruzado**.
 
 [![align-itens.jpg](https://i.postimg.cc/KYTRLVF0/align-itens.jpg)](https://postimg.cc/xk0fV6Xm)
 
-Enquanto align-content você só irá utilizar quando possuímr mais de uma linha em seu **eixo principal**.
+Enquanto `align-content` você só irá utilizar quando possuímr mais de uma linha em seu **eixo principal**.
 
 [![align-content.jpg](https://i.postimg.cc/HnHk1sqM/align-content.jpg)](https://postimg.cc/gXSWvdkc)
 
