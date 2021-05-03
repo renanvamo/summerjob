@@ -283,8 +283,224 @@ Agora vamos praticar!
 
 ## Exercícios
 
+CHegou a hora de você exercitar os conhecimentos em CSS Flexbox.
+
+### Antes de começar: versionando seu código
+
+Para versionar seu código, utilize o seu repositório de exercícios.
+
+Caso você ainda não tenha um, crie um repositório com o nome Trybe ou algo similar.
+
+Abaixo você vai ver exemplos de como organizar cada exercício em uma branch, com arquivos e commits específicos para cada exercício. Você deve seguir este padrão para realizar os exercícios a seguir.
+
+1. Crie uma branch com o nome exercises/css-flexbox-parte1:
+
+`git checkout -b exercises/css-flexbox-parte1`
+
+2. Crie um diretório exercises e, dentro dele, um diretório css-flexbox-parte1. O caminho completo para o diretório a partir da raiz do projeto deverá ser `exercises/css-flexbox-parte1`.
+
+```
+mkdir -p exercises/css-flexbox-parte1
+cd exercises/css-flexbox-parte1
+pwd
+<path_to_your_repo>/exercises/css-flexbox-parte1
+```
+3. Crie um arquivo com um nome descritivo para cada exercício. Os arquivos devem estar dentro da pasta exercises/css-flexbox-parte1, mas lembre-se de fazer os commits a partir da pasta raiz do seu projeto!
+
+```
+git status
+On branch exercises/css-flexbox-parte1
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+  modified:   exercise_1.html
+  ```
+4. Faça commits organizados durante o processo de resolução de cada um de seus exercícios. As mensagens dos commits devem ser breves e explicativas.
+
+```
+git log
+commit 100d4c10d64e2b8443f43edf3be13588a77b8fa4 (HEAD -> exercises/css-flexbox-parte1)
+Author: Tryber Bot <tryberbot@betrybe.com>
+Date:   Fry Sep 27 17:48:01 2019 -0300
+
+    Exercício 1 - adicionei display: flex ao elemento header
+
+commit c0701d91274c2ac8a29b9a7fbe4302accacf3c78
+Author: Tryber Bot <tryberbot@betrybe.com>
+Date:   Fry Sep 27 16:47:21 2019 -0300
+
+    Exercicio 1 - centraliza os elementos dentro da div header
+```
+
+5. Lembre-se que na primeira vez que você for enviar o código para o repositório remoto a branch exercises/css-flexbox-parte1 não vai existir lá.
+Então você precisa configurar o remote utilizando a opção --set-upstream (ou -u, que é a forma abreviada).
+
+`git push -u origin exercises/css-flexbox-parte1`
+
+6. Lembre-se de enviar os commits para o repositório do GitHub.
+  
+`git push origin exercises/css-flexbox-parte1`  
+  
+7. Quando terminar os exercícios, seus códigos devem estar todos commitados na branch exercises/css-flexbox-parte1, e disponíveis no repositório remoto do GitHub.
+Pra finalizar, crie um Pull Request , adicione uma descrição bem bacana, e envie para a monitoria e/ou colegas revisarem! 🤜🏼🤛🏼
+
+### Exercício 1
+
+Hoje você irá montar o cabeçalho de uma rede social chamada Trybebook. Segue abaixo uma imagem exemplo de como deve ficar ao final dos exercícios.
+
+[![Screenshot-from-2021-05-03-13-49-09.png](https://i.postimg.cc/6qVzZfT3/Screenshot-from-2021-05-03-13-49-09.png)](https://postimg.cc/wRvh8JX8)
+Vamos começar montando o cabeçalho da nova rede social TrybeBook, e para isso, copie o código abaixo:
+
+Para começar a desenvolver, copie o código abaixo
+
+```
+
+```
+
+Analisando o código acima, você perceberá que o elemento `header` possui 3 elementos filhos, organize-os de maneira a ficarem em uma só linha horizontal, e que tenha os espaçamentos como mostra a imagem de exemplo.
+
+### Exercício 2
+
+Agora, faça com que o elemento de classe `title-content` se alinhem como na imagem. (Lembre-se do alinhamento horizontal e vertical)
+
+### Exercício 3
+
+
+
 ## Gabarito de Exercícios
 
+
+```
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Exercícios Flexbox</title>
+  <style>
+    body {
+      margin: 0 auto;
+    }
+
+    header { 
+      width: 100%;
+      background-color: rgb(4, 153, 153);
+      padding: 10px 0;
+      display: flex;
+      justify-content: space-around;
+      align-items: flex-end;
+    }
+
+    .title-content {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    #search-input {
+      padding: 6px;
+      border-radius: 5px;
+    }
+
+    .search-panel {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    
+    .nav-main {
+      display: flex;
+    }
+
+    .nav-main div {
+      display: flex;
+      font-size: 13px;
+      margin: 0 10px;
+      width: 100px;
+      height: 100px;
+      border: 1px solid black;
+      border-radius: 10px;
+      background-color: rgb(153, 116, 151);
+    }
+
+    .icons {
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .nav-profile {
+      display: flex;
+      align-items: flex-end;
+      width: 300px;
+      justify-content: space-between;
+    }
+  
+    .personal{
+      display: flex;
+      align-items: center;
+    }
+
+    .nav-user {
+      display: flex;
+      flex-direction: column-reverse;
+    }
+
+
+  </style>
+</head>
+<body>
+
+  <header class="header">
+    <section class="title-content">
+      <div id="title">
+        <h1>TRYBEBOOK</h1>
+      </div>
+      <div class="search-panel">
+        <img id="logo" src="https://img.icons8.com/ios-filled/50/26e07f/y-combinator.png"/>
+        <input id="search-input" placeholder="Pesquise aqui!">
+      </div>
+    </section>
+
+    <section class="nav-main">
+      <div class="icons">
+        <p>Página Inicial</p>
+        <img src="https://img.icons8.com/pastel-glyph/50/000000/browser-homepage--v2.png"/>
+      </div>
+      <div class="icons">
+        <p>Vídeos</p>
+        <img src="https://img.icons8.com/dotty/50/000000/movies-folder--v1.png"/>
+      </div>
+      <div class="icons">
+        <p>Grupos</p>
+        <img src="https://img.icons8.com/pastel-glyph/50/000000/groups--v4.png"/>
+      </div>
+      <div class="icons">
+        <p>Jogos</p>
+        <img src="https://img.icons8.com/ios/50/000000/footman.png"/>
+      </div>
+    </section>
+
+    <section class="nav-profile">
+      <section class="personal">
+        <img id="user-image" src="https://img.icons8.com/material-sharp/59/26e07f/user-male-circle.png"/>
+        <div>Nome do usuário</div>
+      </section>
+      <section class="nav-user">
+        <img id="user-menu" src="https://img.icons8.com/fluent-systems-filled/40/000000/top-menu.png"/>
+        <img id="user-notifications" src="https://img.icons8.com/material-rounded/40/000000/bell--v1.png"/>
+        <img id="user-settings" src="https://img.icons8.com/windows/40/000000/user-settings.png"/>
+      </section>
+    </section>
+  </header>
+  <section>
+    <p>Todos os ícones foram retirados do site <a href="https://icons8.com.br/" target="_blank">icons8</a></p>
+  </section>
+</body>
+</html>
+```
 
 ## Recursos Adicionais
 
