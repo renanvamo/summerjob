@@ -350,9 +350,8 @@ Pra finalizar, crie um Pull Request , adicione uma descrição bem bacana, e env
 Hoje você irá montar o cabeçalho de uma rede social chamada Trybebook. Segue abaixo uma imagem exemplo de como deve ficar ao final dos exercícios.
 
 [![Screenshot-from-2021-05-03-13-49-09.png](https://i.postimg.cc/6qVzZfT3/Screenshot-from-2021-05-03-13-49-09.png)](https://postimg.cc/wRvh8JX8)
-Vamos começar montando o cabeçalho da nova rede social TrybeBook, e para isso, copie o código abaixo:
 
-Para começar a desenvolver, copie o código abaixo
+Para começar a desenvolver, copie o código abaixo:
 
 ```
 <!DOCTYPE html>
@@ -371,9 +370,12 @@ Para começar a desenvolver, copie o código abaixo
       width: 100%;
       background-color: rgb(4, 153, 153);
       padding: 10px 0;
+      /* Exercício 1 - Adicione o código abaixo */
+      
     }
 
     .title-content {
+      /* Exercício 2 - Adicione o código abaixo */
       
     }
 
@@ -384,11 +386,13 @@ Para começar a desenvolver, copie o código abaixo
 
     .search-panel {
       display: flex;
+      /* Exercício 3 - Adicione o código abaixo */
       
     }
     
     .nav-main {
-  
+      /* Exercício 4 - Adicione o código abaixo */
+      
     }
 
     .nav-main div {
@@ -403,6 +407,7 @@ Para começar a desenvolver, copie o código abaixo
     }
 
     .icons {
+      /* Exercício 5 - Adicione o código abaixo */
       
     }
 
@@ -411,10 +416,12 @@ Para começar a desenvolver, copie o código abaixo
     }
   
     .personal{
-     
+      /* Exercício 6 - Adicione o código abaixo */
+      
     }
 
     .nav-user {
+      /* Exercício 7 - Adicione o código abaixo */
       
     }
 
@@ -483,19 +490,19 @@ Agora, faça com que o elemento de classe `title-content` se alinhem como na ima
 
 #### Exercício 3
 
-No elemento de classe `search-panel` faça o alinhamento dos itens que existem dentro dele.
+No elemento de classe `search-panel`, posicione os itens que existem dentro dele.
 
 #### Exercício 4
 
-Nos ícones de centro, determine a direção correta destes itens, posicionando-os como na imagem de exemplo.
+Nos ícones de centro, que possuem a classe `nav-main`, determine a direção correta destes itens, posicionando-os como na imagem de exemplo.
 
 #### Exercício 5
 
-Dentro da tag de classe `nav-profile` os itens estão organizados de maneira a não ocuparem todo o espaço do container de maneira correta, organize esses elementos internos para que eles fiquem como na imagem.
+Dentro da tag de classe `nav-profile`, os itens estão organizados de maneira a não ocuparem todo o espaço do container de maneira correta, organize esses elementos internos para que eles fiquem como na imagem.
 
 #### Exercício 6
 
-Já na classe `personal`, temos itens que não seguem o alinhamento da imagem de exemplo, busque organiza-los de maneira que se pareça com a imagem que você viu acima.
+Já na classe `personal`, temos itens que não seguem o alinhamento da imagem de exemplo, organize de maneira que se pareça com a imagem que você viu acima.
 
 #### Exercício 7
 
